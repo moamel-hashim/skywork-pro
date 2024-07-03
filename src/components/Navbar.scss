@@ -1,0 +1,47 @@
+$primary-color:#1A75CF;
+$secondary-color: #FF621B;
+
+
+header {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    h1 {
+      text-transform: uppercase;
+      a {
+        text-decoration: none;
+        color: $primary-color;
+      }
+      span {
+        color: $secondary-color;
+      }
+    }
+    div {
+      width: 10%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .nav-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

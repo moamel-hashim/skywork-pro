@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+header .logo-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+header .logo-container h1 {
+  text-transform: uppercase;
+}
+header .logo-container h1 a {
+  text-decoration: none;
+  color: #1A75CF;
+}
+header .logo-container h1 span {
+  color: #FF621B;
+}
+header .logo-container div {
+  width: 10%;
+}
+header .logo-container div img {
+  width: 100%;
+}
+header .nav-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=Navbar.css.map */
