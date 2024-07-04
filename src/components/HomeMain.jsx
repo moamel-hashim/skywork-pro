@@ -25,12 +25,53 @@ export default function HomeMain() {
         <div className="cards-container">
           <div className="cards">
             <p>Areal Services</p>
+            <div>
+              <img src="/src/assets/Exo-inc-aerial-inspection-drones.jpg" alt="Drone flying by a power pole for inspection" />
+            </div>
+            <div>
+              <p>Skywork Pro leads in aerial drone inspections, offering precise, detailed, and safe assessments with cutting-edge technology. Trust Skywork Pro for top-quality, efficient results.</p>
+            </div>
+            <div>
+            <Link to="/service" className="button">Learn more</Link>
+            </div>
           </div>
           <div className="cards">
             <p>Infrastructure Services</p>
+            <div>
+              <img src="/src/assets/structure-rode.jpg" alt="an image of structures and rode" />
+            </div>
+            <div>
+              <p>Skywork Pro excels in infrastructure services, delivering reliable, innovative solutions with precision and expertise. Trust Skywork Pro for top-tier infrastructure support and excellence.</p>
+            </div>
+            <div>
+              <Link to="/service" className="button">Learn more</Link>
+            </div>
           </div>
           <div className="cards">
             <p>Transmission & distribution pole inspections</p>
+            <div>
+              <img src="/src/assets/electric-pole.jpg" alt="an image of an electric pole" />
+            </div>
+            <div>
+              <p>Skywork Pro specializes in transmission and distribution pole inspections, providing accurate, efficient assessments using advanced drone technology.
+                Rely on Skywork Pro for safe and reliable pole inspections.</p>
+            </div>
+            <div>
+              <Link to="/service" className="button">Learn more</Link>
+            </div>
+          </div>
+          <div className="cards">
+            <p>LiDAR</p>
+            <div>
+              <img src="/src/assets/LiDAR.jpg" alt="an image of LiDAR technology" />
+            </div>
+            <div>
+              <p>Skywork Pro offers superior LiDAR services, delivering high-precision mapping and data collection.
+                Count on Skywork Pro for cutting-edge LiDAR solutions and unmatched accuracy.</p>
+            </div>
+            <div>
+              <Link to="/service" className="button">Learn more</Link>
+            </div>
           </div>
         </div>
       </section>
