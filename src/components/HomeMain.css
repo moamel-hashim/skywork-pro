@@ -57,6 +57,7 @@ section:nth-child(2) {
 section:nth-child(2) .title {
   margin-top: 2rem;
   text-align: center;
+  color: #1A75CF;
 }
 section:nth-child(2) .cards-container {
   display: flex;
@@ -100,4 +101,30 @@ section:nth-child(2) .cards-container .cards img {
 
 p {
   margin: 0;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+  text-align: center;
+  color: #1A75CF;
+}
+
+section:nth-child(3) {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+section:nth-child(3) article {
+  font-family: "OpenSans", sans-serif;
+  text-align: center;
+}
+section:nth-child(3) .cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-family: "OpenSans", sans-serif;
+}
+section:nth-child(3) .cards {
+  width: 300px;
+  height: 100%;
 }/*# sourceMappingURL=HomeMain.css.map */

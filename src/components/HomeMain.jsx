@@ -1,3 +1,6 @@
+
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faRecycle} from '@fortawesome/free-solid-svg-icons';
 import './HomeMain.css';
 import {Link} from 'react-router-dom';
 export default function HomeMain() {
@@ -72,6 +75,29 @@ export default function HomeMain() {
             <div>
               <Link to="/service" className="button">Learn more</Link>
             </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="title">
+          <h2>Why Chose Skywork pro?</h2>
+        </div>
+        <article>
+          Choose Skywork Pro for unparalleled expertise in drone technology and aerial inspections. Our state-of-the-art equipment and experienced team ensure precise, efficient, and safe assessments for a wide range of applications, from infrastructure and transmission poles to LiDAR mapping. Committed to innovation and quality,
+           Skywork Pro delivers reliable, detailed results that enhance operational efficiency and safety. Trust Skywork Pro for exceptional service and industry-leading solutions tailored to meet your specific needs.
+        </article>
+        <div className="cards-container">
+          <div className="cards">
+            <h3>Asset Lifecycle Management</h3>
+            <div>
+              <FontAwesomeIcon icon={faRecycle}/>
+            </div>
+          </div>
+          <div className="cards">
+            <h3>Visualization & Analytics</h3>
+          </div>
+          <div className="cards">
+            <h3>Preventative Asset Maintenance</h3>
           </div>
         </div>
       </section>
