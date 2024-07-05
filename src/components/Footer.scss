@@ -4,5 +4,79 @@ $roboto: 'Roboto';
 $openSans: 'OpenSans';
 
 footer {
-  background-color: $primary-color;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .copyright {
+    margin: 1rem 0 1rem 0;
+  }
+}
+
+.footer {
+  border-top: solid #ccc 1px;
+  border-bottom: solid #ccc 1px;
+  padding: 1rem;
+  margin-top: 2rem;
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+
+    h1 {
+      text-transform: uppercase;
+
+      a {
+        text-decoration: none;
+        color: $primary-color;
+      }
+
+      span {
+        color: $secondary-color;
+      }
+    }
+
+    div {
+      width: 10%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+
+    h3 {
+      color: $primary-color;
+      font-family: $roboto, sans-serif;
+    }
+
+    p {
+      font-family: $openSans, sans-serif;
+    }
+
+    .social {
+      a {
+        text-decoration: none;
+        color: $primary-color;
+        font-size: x-large;
+      }
+    }
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
 }

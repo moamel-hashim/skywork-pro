@@ -8,7 +8,7 @@ export default function Navbar() {
         <div>
           <img src="/src/assets/SWP-LOGO-COLOR.png" alt="Logo" />
           </div>
-        <h1><Link>SkyWork <span>Pro</span></Link></h1>
+        <h1><Link to="/">SkyWork <span>Pro</span></Link></h1>
       </div>
       <div className="nav-container">
       <nav>
