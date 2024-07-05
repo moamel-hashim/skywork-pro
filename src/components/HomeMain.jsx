@@ -1,6 +1,6 @@
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faRecycle} from '@fortawesome/free-solid-svg-icons';
+import { faRecycle, faChartLine, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import './HomeMain.css';
 import {Link} from 'react-router-dom';
 export default function HomeMain() {
@@ -27,7 +27,7 @@ export default function HomeMain() {
         </div>
         <div className="cards-container">
           <div className="cards">
-            <p>Areal Services</p>
+            <h3>Areal Services</h3>
             <div>
               <img src="/src/assets/Exo-inc-aerial-inspection-drones.jpg" alt="Drone flying by a power pole for inspection" />
             </div>
@@ -39,7 +39,7 @@ export default function HomeMain() {
             </div>
           </div>
           <div className="cards">
-            <p>Infrastructure Services</p>
+            <h3>Infrastructure Services</h3>
             <div>
               <img src="/src/assets/structure-rode.jpg" alt="an image of structures and rode" />
             </div>
@@ -51,7 +51,7 @@ export default function HomeMain() {
             </div>
           </div>
           <div className="cards">
-            <p>Transmission & distribution pole inspections</p>
+            <h3>Transmission & distribution pole inspections</h3>
             <div>
               <img src="/src/assets/electric-pole.jpg" alt="an image of an electric pole" />
             </div>
@@ -64,7 +64,7 @@ export default function HomeMain() {
             </div>
           </div>
           <div className="cards">
-            <p>LiDAR</p>
+            <h3>LiDAR</h3>
             <div>
               <img src="/src/assets/LiDAR.jpg" alt="an image of LiDAR technology" />
             </div>
@@ -88,16 +88,62 @@ export default function HomeMain() {
         </article>
         <div className="cards-container">
           <div className="cards">
-            <h3>Asset Lifecycle Management</h3>
             <div>
               <FontAwesomeIcon icon={faRecycle}/>
             </div>
+            <h3>Asset Lifecycle Management</h3>
+            <div>
+              <p>Data captured by Skywork pro technology aims to maximize the efficiency and cost-effectiveness of assets throughout their lifecycle. Every stage is critical in maximizing utility ROI.</p>
+            </div>
           </div>
           <div className="cards">
+            <div>
+              <FontAwesomeIcon icon={faChartLine}/>
+            </div>
             <h3>Visualization & Analytics</h3>
+            <div>
+              <p>Skywork Pro offers top-tier Visualization & Analytics, transforming complex data into actionable insights with advanced drone technology. Skywork Pro offers a clear, accurate visualizations and comprehensive analytics.</p>
+            </div>
           </div>
           <div className="cards">
+            <div>
+              <FontAwesomeIcon icon={faCalendarAlt}/>
+            </div>
             <h3>Preventative Asset Maintenance</h3>
+            <div>
+              <p>Go beyond routine inspection schedules to optimize your assets. Improve your grid's reliability, safety, and efficiency by proactively minimizing downtime.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="section-header">
+          <h2>Benefits</h2>
+        </div>
+        <div className="cards-container">
+          <div className="cards">
+            <h3>Detect Potential Risk in Advance</h3>
+            <div>
+              <p>Identify and eliminate potential risks before they cause unplanned costs or disasters.</p>
+            </div>
+          </div>
+          <div className="cards">
+            <h3>Reduce Operational Costs & Save Time</h3>
+            <div>
+              <p>Minimize overspending caused by asset downtime and high repair costs in a fraction of the time.</p>
+            </div>
+          </div>
+          <div className="cards">
+            <h3>Mitigate Regulatory Compliance Burdens</h3>
+            <div>
+              <p>Comprehensive solutions with quick deliverables enable better management of regulatory expectations.</p>
+            </div>
+          </div>
+          <div className="cards">
+            <h3>Automate Complex Processes</h3>
+            <div>
+              <p>Embrace data-driven methods to drive optimal utility performance and efficient operations.</p>
+            </div>
           </div>
         </div>
       </section>
