@@ -20,6 +20,7 @@ footer .copyright {
 }
 .footer .logo-container h1 {
   text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
 }
 .footer .logo-container h1 a {
   text-decoration: none;
