@@ -4,8 +4,62 @@ main header {
   text-align: center;
 }
 main header h2 {
-  color: #1A75CF;
+  color: #1a75cf;
 }
 main header p {
   font-family: "OpenSans", sans-serif;
+}
+main a {
+  text-decoration: none;
+  color: white;
+  background-color: #1a75cf;
+  padding: 0.7rem 1.5rem;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  transition: background 0.5s;
+}
+main a:hover {
+  background-color: #063e75;
+}
+main section {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+main section h3 {
+  font-family: "Roboto", sans-serif;
+}
+main section p {
+  font-family: "OpenSans", sans-serif;
+}
+main section div {
+  width: 50%;
+  padding: 1rem;
+}
+main section div li {
+  list-style: none;
+  font-family: "OpenSans", sans-serif;
+}
+main section div img {
+  border-radius: 5px;
+}
+main section:nth-child(3) {
+  max-width: none;
+  padding: 1rem;
+  flex-direction: row-reverse;
+  margin: 0;
+}
+main section:nth-child(5) {
+  padding: 1rem;
+  flex-direction: row-reverse;
+}
+main section:nth-child(6) {
+  justify-content: center;
+}
+main section:nth-child(6) a {
+  color: #1a75cf;
+  background-color: white;
+  padding: 0;
+  border-radius: 0;
 }/*# sourceMappingURL=ServiceMain.css.map */
