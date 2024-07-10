@@ -1,0 +1,11 @@
+main header {
+  display: block;
+  width: 50%;
+  text-align: center;
+}
+main header h2 {
+  color: #1A75CF;
+}
+main header p {
+  font-family: "OpenSans", sans-serif;
+}/*# sourceMappingURL=ServiceMain.css.map */

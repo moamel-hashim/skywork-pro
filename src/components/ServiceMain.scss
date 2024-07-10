@@ -1,0 +1,19 @@
+$primary-color: #1A75CF;
+$secondary-color: #FF621B;
+$roboto: 'Roboto';
+$openSans: 'OpenSans';
+
+
+main {
+  header {
+    display: block;
+    width: 50%;
+    text-align: center;
+    h2 {
+      color:$primary-color;
+    }
+    p {
+      font-family: $openSans, sans-serif;
+    }
+  }
+}
