@@ -42,7 +42,7 @@ export default function ContactMain() {
     <main className="contact-page">
       <header>
         <h1>Contact Us</h1>
-        <p>Email:info@skyworkpro.com</p>
+        <p>Email:info@skywork.pro</p>
         <div>
           <p>Have a question or want to learn more about our services and technology? Feel free to send us a message, we're here to help!</p>
         </div>

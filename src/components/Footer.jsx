@@ -15,13 +15,6 @@ export default function Footer() {
         <h1><Link to="/">SkyWork <span>Pro</span></Link></h1>
       </div>
       <div className="footer-container">
-        <div className="address">
-          <h3>Location</h3>
-          <address>
-            4421 something street, city <br/>
-            state, zip code
-          </address>
-        </div>
         <div className="menu">
           <h3>Menu</h3>
           <Link>Home</Link>
@@ -31,8 +24,7 @@ export default function Footer() {
         </div>
         <div className="contact">
           <h3>Contact</h3>
-          <p>Email: something@email.com</p>
-          <p>Phone: 666 666-6666</p>
+          <p>Email: info@skywork.pro</p>
         </div>
         <div className="social">
           <h3>Follow</h3>
@@ -41,7 +33,7 @@ export default function Footer() {
       </div>
       </div>
     <div className="copyright">
-      <p><i>copyright &copy; all rights are reserved by Skywork pro</i></p>
+      <p><i> &copy; all rights are reserved by Skywork pro</i></p>
     </div>
     </footer>
   )

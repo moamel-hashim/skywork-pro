@@ -4,6 +4,7 @@ footer {
 }
 footer .copyright {
   margin: 1rem 0 1rem 0;
+  font-family: "OpenSans", sans-serif;
 }
 
 .footer {
@@ -59,4 +60,8 @@ footer .copyright {
 .footer .menu a {
   text-decoration: none;
   color: black;
+  font-family: "OpenSans", sans-serif;
+}
+.footer .menu a:hover {
+  color: #1A75CF;
 }/*# sourceMappingURL=Footer.css.map */
