@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="nav-container">
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/about">About Us</Link>
+        <Link to="/community">Community</Link>
         <Link to="/service">Service</Link>
         <Link to="/contact">Contact Us</Link>
       </nav>

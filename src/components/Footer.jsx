@@ -17,10 +17,10 @@ export default function Footer() {
       <div className="footer-container">
         <div className="menu">
           <h3>Menu</h3>
-          <Link>Home</Link>
-          <Link>About Us</Link>
-          <Link>Service</Link>
-          <Link>Contact Us</Link>
+          <Link to="/">Home</Link>
+          <Link to="/community">Community</Link>
+          <Link to="/service">Service</Link>
+          <Link to="/contact">Contact Us</Link>
         </div>
         <div className="contact">
           <h3>Contact</h3>
