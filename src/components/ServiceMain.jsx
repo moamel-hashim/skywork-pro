@@ -2,7 +2,7 @@ import './ServiceMain.css';
 import {Link} from 'react-router-dom';
 export default function ServiceMain() {
   return (
-    <main>
+    <main className="service">
       <header>
         <div>
           <h2>What We Offer</h2>
@@ -92,7 +92,7 @@ export default function ServiceMain() {
       <section>
         <p>Don't see the service you need? <Link to="/contact">Contact us</Link>, and Skywork Pro will tailor a solution to fit your specific requirements.</p>
       </section>
-      
+
     </main>
   )
 }

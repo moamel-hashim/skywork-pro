@@ -23,7 +23,7 @@ main {
   border-radius: 5px;
   height: 612px;
   padding: 1rem;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .hero-img-container .hero-text h3 {
   font-size: 2.5rem;
@@ -115,14 +115,14 @@ section:nth-child(3) {
   margin: 0 auto;
 }
 section:nth-child(3) article {
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 section:nth-child(3) .cards-container {
   display: flex;
   justify-content: center;
   gap: 15px;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 section:nth-child(3) .cards {
@@ -159,7 +159,7 @@ section:nth-child(4) .cards-container {
 section:nth-child(4) .cards-container .cards {
   padding: 1rem;
   border-right: wheat solid 2px;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 section:nth-child(4) .cards-container .cards:nth-child(4) {
   border-right: none;
