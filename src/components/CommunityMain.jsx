@@ -41,10 +41,10 @@ export default function CommunityMain() {
       </div>
       <div className="trusted-partners">
         <div>
-          <a href="https://fidausa.com/"><img src="src/assets/images/FIDAUSA-.-com-FF-01.png" alt="logo of fiausa company" /></a>
+          <a href="https://fidausa.com/"><img src="/images/FIDAUSA-.-com-FF-01.png" alt="logo of fiausa company" /></a>
         </div>
         <div>
-          <a href="https://leanprocesssolutions.com/"><img src="src/assets/images/lean-process-solutions.webp" alt="logo of lean process solutions" /></a>
+          <a href="https://leanprocesssolutions.com/"><img src="/images/lean-process-solutions.webp" alt="logo of lean process solutions" /></a>
         </div>
       </div>
     </section>
