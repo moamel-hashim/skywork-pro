@@ -1,8 +1,8 @@
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRecycle, faChartLine, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import './HomeMain.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 export default function HomeMain() {
   return (
     <main>
@@ -15,7 +15,7 @@ export default function HomeMain() {
               the safety and security of our communities.
             </p>
             <div className="button-container">
-            <Link to='/contact'>Contact Us</Link>
+              <Link to='/contact'>Contact Us</Link>
             </div>
           </div>
           <img src="/src/assets/QZJcI1mFTgGa2HpMhhYj-383580018.jpg" alt="Drone hero image" />
@@ -23,7 +23,7 @@ export default function HomeMain() {
       </section>
       <section>
         <div className="title">
-        <h2>Featured Services</h2>
+          <h2>Featured Services</h2>
         </div>
         <div className="cards-container">
           <div className="cards">
@@ -35,7 +35,7 @@ export default function HomeMain() {
               <p>Skywork Pro leads in aerial drone inspections, offering precise, detailed, and safe assessments with cutting-edge technology. Trust Skywork Pro for top-quality, efficient results.</p>
             </div>
             <div>
-            <Link to="/service" className="button">Learn more</Link>
+              <Link to="/service" className="button">Learn more</Link>
             </div>
           </div>
           <div className="cards">
@@ -84,32 +84,32 @@ export default function HomeMain() {
         </div>
         <article>
           Choose Skywork Pro for unparalleled expertise in drone technology and aerial inspections. Our state-of-the-art equipment and experienced team ensure precise, efficient, and safe assessments for a wide range of applications, from infrastructure and transmission poles to LiDAR mapping. Committed to innovation and quality,
-           Skywork Pro delivers reliable, detailed results that enhance operational efficiency and safety. Trust Skywork Pro for exceptional service and industry-leading solutions tailored to meet your specific needs.
+          Skywork Pro delivers reliable, detailed results that enhance operational efficiency and safety. Trust Skywork Pro for exceptional service and industry-leading solutions tailored to meet your specific needs.
         </article>
         <div className="cards-container">
           <div className="cards">
             <div>
-              <FontAwesomeIcon icon={faRecycle}/>
+              <FontAwesomeIcon icon={faRecycle} />
             </div>
-            <h3>Asset Lifecycle Management</h3>
+            <h3>Lifecycle Management</h3>
             <div>
-              <p>Data captured by Skywork pro technology aims to maximize the efficiency and cost-effectiveness of assets throughout their lifecycle. Every stage is critical in maximizing utility ROI.</p>
+              <p>Skywork Pro's technology captures data to optimize the efficiency and cost-effectiveness of assets at every stage of their lifecycle, ensuring maximum utility ROI.</p>
             </div>
           </div>
           <div className="cards">
             <div>
-              <FontAwesomeIcon icon={faChartLine}/>
+              <FontAwesomeIcon icon={faChartLine} />
             </div>
             <h3>Visualization & Analytics</h3>
             <div>
-              <p>Skywork Pro offers top-tier Visualization & Analytics, transforming complex data into actionable insights with advanced drone technology. Skywork Pro offers a clear, accurate visualizations and comprehensive analytics.</p>
+              <p>Skywork Pro delivers top-tier visualization and analytics, turning complex data into actionable insights with advanced drone technology. Enjoy clear, accurate visualizations and comprehensive analytics.</p>
             </div>
           </div>
           <div className="cards">
             <div>
-              <FontAwesomeIcon icon={faCalendarAlt}/>
+              <FontAwesomeIcon icon={faCalendarAlt} />
             </div>
-            <h3>Preventative Asset Maintenance</h3>
+            <h3> Asset Maintenance</h3>
             <div>
               <p>Go beyond routine inspection schedules to optimize your assets. Improve your grid's reliability, safety, and efficiency by proactively minimizing downtime.</p>
             </div>

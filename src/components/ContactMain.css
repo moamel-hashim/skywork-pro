@@ -55,4 +55,8 @@
   border-radius: 5px;
   transition: background 0.5s;
   border: none;
+  cursor: pointer;
+}
+.contact-page div button:hover {
+  background-color: #063e75;
 }/*# sourceMappingURL=ContactMain.css.map */

@@ -17,7 +17,7 @@ export default function ServiceMain() {
       <section>
         <div>
           <h3>Our Services</h3>
-          <p>Skywork Pro offers a wide range of specialized services, including:</p>
+          <p>Skywork Pro offers a wide range of specialized services, including</p>
           <ul>
             <li>Inspections</li>
             <li>LiDAR Technology</li>
@@ -33,11 +33,29 @@ export default function ServiceMain() {
           <img src="/src/assets/Blog-Drone-Inspection.webp" alt="drones for inspection" />
         </div>
       </section>
+      <section>
+        <div>
+          <h3>Power Grid</h3>
+          <p>Skywork Pro offers an excellent inspections and services using cutting edge technology</p>
+          <ul>
+            <li>transmission and distribution inspection services</li>
+            <li>LiDAR / Corona solutions</li>
+            <li>PSP inspections</li>
+            <li>Substation inspections</li>
+          </ul>
+          <div>
+            <Link to="/contact">contact us</Link>
+          </div>
+        </div>
+        <div>
+          <img src="/src/assets/Drone inspecting a pylon and power lines .jpg" alt="drones for inspection" />
+        </div>
+      </section>
 
       <section>
         <div>
           <h3>Imaging Solutions</h3>
-          <p>Our advanced imaging services provide:</p>
+          <p>Our advanced imaging services provide</p>
           <ul>
             <li>Disaster Relief</li>
             <li>Wildfire Mitigation</li>
@@ -57,7 +75,7 @@ export default function ServiceMain() {
       <section>
         <div>
           <h3>Management Services</h3>
-          <p>We excel in offering comprehensive management services such as:</p>
+          <p>We excel in offering comprehensive management services such as</p>
           <ul>
             <li>Vegetation Management</li>
             <li>Magnetometer Surveys</li>
@@ -75,7 +93,7 @@ export default function ServiceMain() {
       <section>
         <div>
           <h3>Erosion Control</h3>
-          <p>Our erosion control services include:</p>
+          <p>Our erosion control services include</p>
           <ul>
             <li>Photography</li>
             <li>Cinematography</li>

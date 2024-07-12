@@ -1,0 +1,33 @@
+$primary-color:#1A75CF;
+$secondary-color: #FF621B;
+$roboto: 'Roboto';
+$openSans: 'Open Sans';
+
+
+
+.community {
+  h1,h2,h3,h4 {
+    font-family: $roboto, sans-serif;
+  }
+  h2 {
+    color: $primary-color;
+    text-align: center;
+  }
+  p {
+    font-family: $openSans, sans-serif;
+  }
+  max-width: 1000px;
+  margin: 0 auto;
+  section {
+    margin: 1rem 0 1rem 0;
+    background-color: white;
+    .trusted-partners {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      div {
+        width: 25%;
+      }
+    }
+  }
+}

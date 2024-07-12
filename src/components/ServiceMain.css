@@ -54,10 +54,10 @@
   padding: 1rem;
   flex-direction: row-reverse;
 }
-.service section:nth-child(6) {
+.service section:nth-child(7) {
   justify-content: center;
 }
-.service section:nth-child(6) a {
+.service section:nth-child(7) a {
   color: #1a75cf;
   background-color: white;
   padding: 0;

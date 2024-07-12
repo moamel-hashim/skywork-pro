@@ -1,0 +1,26 @@
+.community {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.community h1, .community h2, .community h3, .community h4 {
+  font-family: "Roboto", sans-serif;
+}
+.community h2 {
+  color: #1A75CF;
+  text-align: center;
+}
+.community p {
+  font-family: "Open Sans", sans-serif;
+}
+.community section {
+  margin: 1rem 0 1rem 0;
+  background-color: white;
+}
+.community section .trusted-partners {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.community section .trusted-partners div {
+  width: 25%;
+}/*# sourceMappingURL=CommunityMain.css.map */
