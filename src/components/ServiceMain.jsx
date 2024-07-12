@@ -9,7 +9,7 @@ export default function ServiceMain() {
         </div>
         <div>
           <p>
-            At Skywork Pro, we are dedicated to enhancing the performance and longevity of your utility assets through insightful data. Our specialized services focus on proactive analytics and responsive insights, ensuring optimal conditions and uninterrupted operations. Leveraging cutting-edge tools and technology, Skywork Pro provides precise and safe infrastructure inspections, enabling timely maintenance and early risk detection. Combining intelligence-driven technology with our team's expertise, Aethon delivers innovative, cost-effective solutions tailored to your needs.
+            At Skywork Pro, we are dedicated to enhancing the performance and longevity of your utility assets through insightful data. Our specialized services focus on proactive analytics and responsive insights, ensuring optimal conditions and uninterrupted operations. Leveraging cutting-edge tools and technology, Skywork Pro provides precise and safe infrastructure inspections, enabling timely maintenance and early risk detection. Combining intelligence-driven technology with our team's expertise, Skywork pro delivers innovative, cost-effective solutions tailored to your needs.
           </p>
         </div>
       </header>

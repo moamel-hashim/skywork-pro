@@ -14,7 +14,7 @@ export default function Navbar() {
       <nav>
         <Link to="/">Home</Link>
         <Link to="/community">Community</Link>
-        <Link to="/service">Service</Link>
+        <Link to="/service">Services</Link>
         <Link to="/contact">Contact Us</Link>
       </nav>
       </div>
