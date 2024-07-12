@@ -17,6 +17,10 @@ $openSans: "Open Sans";
     margin: 1rem;
     h1 {
       font-family: $roboto, sans-serif;
+      color: $primary-color;
+    }
+    span {
+      color: $secondary-color;
     }
     p {
       margin: 1rem 0 1rem 0;
