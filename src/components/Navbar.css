@@ -52,6 +52,10 @@ header nav a {
   transition: background ease-in-out 0.5s;
 }
 header nav a:hover {
-  background-color: black;
-  color: white;
+  color: #1A75CF;
+}
+header nav .active {
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  text-decoration-color: #1A75CF;
 }/*# sourceMappingURL=Navbar.css.map */

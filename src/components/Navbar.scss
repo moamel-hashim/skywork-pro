@@ -53,8 +53,12 @@ header {
       transition: background ease-in-out .5s;
     }
     a:hover {
-      background-color: black;
-      color: white;
+      color: $primary-color;
+    }
+    .active {
+      text-decoration: underline;
+      text-underline-offset: 15px;
+      text-decoration-color: $primary-color;
     }
   }
 }

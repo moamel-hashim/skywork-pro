@@ -64,7 +64,7 @@ export default function ServiceMain() {
             <li>Project Analysis</li>
           </ul>
           <div>
-            <Link>contact us</Link>
+            <Link to="/contact">contact us</Link>
           </div>
         </div>
         <div>
@@ -82,7 +82,7 @@ export default function ServiceMain() {
             <li>Hydrology & Watershed Analysis</li>
           </ul>
           <div>
-            <Link>contact us</Link>
+            <Link to="/contact">contact us</Link>
           </div>
         </div>
         <div>
@@ -99,7 +99,7 @@ export default function ServiceMain() {
             <li>Cinematography</li>
           </ul>
           <div>
-            <Link>contact us</Link>
+            <Link to="/contact">contact us</Link>
           </div>
         </div>
         <div>
