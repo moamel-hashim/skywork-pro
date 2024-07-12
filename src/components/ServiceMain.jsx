@@ -30,7 +30,7 @@ export default function ServiceMain() {
           </div>
         </div>
         <div>
-          <img src="/src/assets/Blog-Drone-Inspection.webp" alt="drones for inspection" />
+          <img src="/src/assets/images/Blog-Drone-Inspection.webp" alt="drones for inspection" />
         </div>
       </section>
       <section>
@@ -48,7 +48,7 @@ export default function ServiceMain() {
           </div>
         </div>
         <div>
-          <img src="/src/assets/Drone inspecting a pylon and power lines .jpg" alt="drones for inspection" />
+          <img src="/src/assets/images/Drone inspecting a pylon and power lines .jpg" alt="drones for inspection" />
         </div>
       </section>
 
@@ -68,7 +68,7 @@ export default function ServiceMain() {
           </div>
         </div>
         <div>
-          <img src="/src/assets/ic_1707343041_1600x_false.jpg" alt="drone imaging solutions" />
+          <img src="/src/assets/images/ic_1707343041_1600x_false.jpg" alt="drone imaging solutions" />
         </div>
       </section>
 
@@ -86,7 +86,7 @@ export default function ServiceMain() {
           </div>
         </div>
         <div>
-          <img src="/src/assets/0_Va-gv_srB-RhsRWi.jpg" alt="aerial view of vegetation management" />
+          <img src="/src/assets/images/0_Va-gv_srB-RhsRWi.jpg" alt="aerial view of vegetation management" />
         </div>
       </section>
 
@@ -103,7 +103,7 @@ export default function ServiceMain() {
           </div>
         </div>
         <div>
-          <img src="/src/assets/DJI_0246-scaled.webp" alt="drone image of erosion control" />
+          <img src="/src/assets/images/DJI_0246-scaled.webp" alt="drone image of erosion control" />
         </div>
       </section>
 
