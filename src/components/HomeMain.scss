@@ -3,9 +3,6 @@ $secondary-color: #FF621B;
 $roboto: 'Roboto';
 $openSans: 'Open Sans';
 
-main {
-  margin-top: 2rem;
-}
 
 .hero-img-container {
   display: flex;
@@ -75,6 +72,12 @@ section:nth-child(2) {
       text-align: center;
       padding: 1rem;
       div {
+        margin: 3rem 0 2rem 0;
+      }
+      .aerial-button {
+        margin: 4rem 0 2rem 0;
+      }
+      .custom-button {
         margin: 3rem 0 2rem 0;
       }
       img {

@@ -34,7 +34,7 @@ export default function HomeMain() {
             <div>
               <p>Skywork Pro leads in aerial drone inspections, offering precise, detailed, and safe assessments with cutting-edge technology. Trust Skywork Pro for top-quality, efficient results.</p>
             </div>
-            <div>
+            <div className="aerial-button">
               <Link to="/service" className="button">Learn more</Link>
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function HomeMain() {
               <p>Skywork Pro specializes in transmission and distribution pole inspections, providing accurate, efficient assessments using advanced drone technology.
                 Rely on Skywork Pro for safe and reliable pole inspections.</p>
             </div>
-            <div>
+            <div className="custom-button">
               <Link to="/service" className="button">Learn more</Link>
             </div>
           </div>

@@ -4,9 +4,16 @@ $secondary-color: #FF621B;
 
 header {
   display: flex;
-  width: 75%;
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  padding: 2rem;
+  backdrop-filter: blur(3px);
+  background-color: hsla(0, 0%, 83%, 0.5);
   .logo-container {
     display: flex;
     align-items: center;

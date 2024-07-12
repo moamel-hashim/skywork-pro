@@ -1,6 +1,7 @@
 .community {
   max-width: 1000px;
   margin: 0 auto;
+  margin-top: 10rem;
 }
 .community h1, .community h2, .community h3, .community h4 {
   font-family: "Roboto", sans-serif;
