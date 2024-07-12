@@ -18,7 +18,7 @@ export default function HomeMain() {
               <Link to='/contact'>Contact Us</Link>
             </div>
           </div>
-          <img src="/images/QZJcI1mFTgGa2HpMhhYj-383580018.jpg" alt="Drone hero image" />
+          <img src="/images/2.jpg" alt="Drone hero image" />
         </div>
       </section>
       <section>
@@ -27,7 +27,7 @@ export default function HomeMain() {
         </div>
         <div className="cards-container">
           <div className="cards">
-            <h3>Areal Services</h3>
+            <h3>Aerial Services</h3>
             <div>
               <img src="/images/Exo-inc-aerial-inspection-drones.jpg" alt="Drone flying by a power pole for inspection" />
             </div>
@@ -51,9 +51,9 @@ export default function HomeMain() {
             </div>
           </div>
           <div className="cards">
-            <h3>Transmission & distribution pole inspections</h3>
+            <h3>Transmission & Distribution Pole Inspections</h3>
             <div>
-              <img src="/images/electric-pole.jpg" alt="an image of an electric pole" />
+              <img src="/images/3.jpg" alt="an image of an electric pole" />
             </div>
             <div>
               <p>Skywork Pro specializes in transmission and distribution pole inspections, providing accurate, efficient assessments using advanced drone technology.
@@ -66,7 +66,7 @@ export default function HomeMain() {
           <div className="cards">
             <h3>LiDAR</h3>
             <div>
-              <img src="/images/LiDAR.jpg" alt="an image of LiDAR technology" />
+              <img src="/images/8.jpg" alt="an image of LiDAR technology" />
             </div>
             <div>
               <p>Skywork Pro offers superior LiDAR services, delivering high-precision mapping and data collection.
@@ -83,35 +83,38 @@ export default function HomeMain() {
           <h2>Why Chose Skywork pro?</h2>
         </div>
         <article>
-          Choose Skywork Pro for unparalleled expertise in drone technology and aerial inspections. Our state-of-the-art equipment and experienced team ensure precise, efficient, and safe assessments for a wide range of applications, from infrastructure and transmission poles to LiDAR mapping. Committed to innovation and quality,
-          Skywork Pro delivers reliable, detailed results that enhance operational efficiency and safety. Trust Skywork Pro for exceptional service and industry-leading solutions tailored to meet your specific needs.
+          Experience unparalleled expertise in drone technology and aerial inspections with Skywork Pro. Our state-of-the-art
+          equipment and experienced team deliver precise, efficient, and safe assessments for a wide range of applications,
+          including infrastructure, transmission, distribution, substations, LiDAR data and many more application. With a commitment
+          to innovation and quality, Skywork Pro provides reliable, detailed results that enhance operational efficiency and safety.
+          Trust Skywork Pro for exceptional service and industry-leading solutions tailored to your specific needs.
         </article>
         <div className="cards-container">
           <div className="cards">
             <div>
               <FontAwesomeIcon icon={faRecycle} />
             </div>
-            <h3>Lifecycle Management</h3>
+            <h3>Comprehensive Asset Lifecycle Oversight</h3>
             <div>
-              <p>Skywork Pro's technology captures data to optimize the efficiency and cost-effectiveness of assets at every stage of their lifecycle, ensuring maximum utility ROI.</p>
+              <p>Maximize the efficiency and cost-effectiveness of your assets throughout their lifecycle with data captured by Skywork Pro technology.</p>
             </div>
           </div>
           <div className="cards">
             <div>
               <FontAwesomeIcon icon={faChartLine} />
             </div>
-            <h3>Visualization & Analytics</h3>
+            <h3>Data Visualization & Insights</h3>
             <div>
-              <p>Skywork Pro delivers top-tier visualization and analytics, turning complex data into actionable insights with advanced drone technology. Enjoy clear, accurate visualizations and comprehensive analytics.</p>
+              <p>Transform complex data into actionable insights with Skywork Pro's top-tier Visualizations and Analytics. Our advanced drone technology offers clear, accurate Visualization and comprehensive analytics.</p>
             </div>
           </div>
           <div className="cards">
             <div>
               <FontAwesomeIcon icon={faCalendarAlt} />
             </div>
-            <h3> Asset Maintenance</h3>
+            <h3> Asset Care</h3>
             <div>
-              <p>Go beyond routine inspection schedules to optimize your assets. Improve your grid's reliability, safety, and efficiency by proactively minimizing downtime.</p>
+              <p>Optimize your assets beyond routine inspection schedules. Improve reliability, safety, and efficiency by proactively minimizing downtime.</p>
             </div>
           </div>
         </div>
@@ -124,25 +127,25 @@ export default function HomeMain() {
           <div className="cards">
             <h3>Detect Potential Risk in Advance</h3>
             <div>
-              <p>Identify and eliminate potential risks before they cause unplanned costs or disasters.</p>
+              <p>Identify and eliminate potential risks before they lead to unplanned costs or disasters.</p>
             </div>
           </div>
           <div className="cards">
             <h3>Reduce Operational Costs & Save Time</h3>
             <div>
-              <p>Minimize overspending caused by asset downtime and high repair costs in a fraction of the time.</p>
+              <p>Minimize overspending from asset downtime and high repair quickly.</p>
             </div>
           </div>
           <div className="cards">
             <h3>Mitigate Regulatory Compliance Burdens</h3>
             <div>
-              <p>Comprehensive solutions with quick deliverables enable better management of regulatory expectations.</p>
+              <p>Quick deliverables and comprehensive solutions for better regulatory management</p>
             </div>
           </div>
           <div className="cards">
             <h3>Automate Complex Processes</h3>
             <div>
-              <p>Embrace data-driven methods to drive optimal utility performance and efficient operations.</p>
+              <p>Utilize data-driven methods to drive optimal utility performance and efficient operations.</p>
             </div>
           </div>
         </div>

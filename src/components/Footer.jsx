@@ -10,9 +10,8 @@ export default function Footer() {
       <div className="footer">
       <div className='logo-container'>
         <div>
-          <img src="/images/SWP-LOGO-COLOR.png" alt="Logo" />
+            <img src="/images/SWP HORIZONTAL.png" alt="Logo" />
         </div>
-        <h1><Link to="/">SkyWork <span>Pro</span></Link></h1>
       </div>
       <div className="footer-container">
         <div className="menu">

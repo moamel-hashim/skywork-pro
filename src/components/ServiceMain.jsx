@@ -38,7 +38,7 @@ export default function ServiceMain() {
           <h3>Power Grid</h3>
           <p>Skywork Pro offers an excellent inspections and services using cutting edge technology</p>
           <ul>
-            <li>transmission and distribution inspection services</li>
+            <li>Transmission and distribution inspection services</li>
             <li>LiDAR / Corona solutions</li>
             <li>PSP inspections</li>
             <li>Substation inspections</li>
