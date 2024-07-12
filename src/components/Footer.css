@@ -4,7 +4,7 @@ footer {
 }
 footer .copyright {
   margin: 1rem 0 1rem 0;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .footer {
@@ -45,7 +45,7 @@ footer .copyright {
   font-family: "Roboto", sans-serif;
 }
 .footer .footer-container p {
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .footer .footer-container .social a {
   text-decoration: none;
@@ -60,7 +60,7 @@ footer .copyright {
 .footer .menu a {
   text-decoration: none;
   color: black;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .footer .menu a:hover {
   color: #1A75CF;
