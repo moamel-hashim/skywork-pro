@@ -51,7 +51,7 @@ header .nav-container {
   }
 }
 header .nav-container .hidden {
-  display: hidden;
+  display: none;
 }
 header nav {
   display: flex;
