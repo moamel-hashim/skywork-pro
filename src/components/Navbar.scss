@@ -1,6 +1,11 @@
 $primary-color:#1A75CF;
 $secondary-color: #FF621B;
 
+@mixin phone {
+  @media only screen and (max-width: 600px) {
+    @content;
+  }
+}
 
 header {
   display: flex;
@@ -14,6 +19,9 @@ header {
   padding: 2rem;
   backdrop-filter: blur(3px);
   background-color: hsla(0, 0%, 83%, 0.5);
+  @include phone {
+    padding: 1rem;
+  }
   .logo-container {
     display: flex;
     align-items: center;
@@ -41,11 +49,22 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    @include phone {
+      .hidden {
+        display: block;
+      }
+    }
+    .hidden {
+      display: hidden;
+    }
   }
   nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    @include phone {
+      display: none;
+    }
     a {
       text-decoration: none;
       color: black;

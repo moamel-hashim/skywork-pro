@@ -1,6 +1,7 @@
 import {Link, useLocation} from "react-router-dom";
 import "./Navbar.css";
-
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faBars} from "@fortawesome/free-solid-svg-icons";
 export default function Navbar() {
   const location = useLocation();
   return (
@@ -11,6 +12,9 @@ export default function Navbar() {
           </div>
       </div>
       <div className="nav-container">
+        <div className="hidden">
+          <FontAwesomeIcon icon={faBars}/>
+        </div>
       <nav>
         <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Home</Link>
           <Link to="/community" className={location.pathname === '/community' ? 'active' : ''}>Community</Link>
