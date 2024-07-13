@@ -58,4 +58,5 @@ header nav .active {
   text-decoration: underline;
   text-underline-offset: 15px;
   text-decoration-color: #1A75CF;
+  text-decoration-thickness: 2px;
 }/*# sourceMappingURL=Navbar.css.map */
