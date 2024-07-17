@@ -32,7 +32,7 @@ export default function HomeMain() {
               <img src="/images/Exo-inc-aerial-inspection-drones.jpg" alt="Drone flying by a power pole for inspection" />
             </div>
             <div>
-              <p>Skywork Pro leads in aerial drone inspections, offering precise, detailed, and safe assessments with cutting-edge technology. Trust Skywork Pro for top-quality, efficient results.</p>
+              <p>Leading in aerial drone inspection, Skywork Pro offers precise, detailed, and safe assessments with cutting-edge technology. Trust us for top=quality, efficient results.</p>
             </div>
             <div className="aerial-button">
               <Link to="/service" className="button">Learn more</Link>
@@ -44,7 +44,7 @@ export default function HomeMain() {
               <img src="/images/structure-rode.jpg" alt="an image of structures and rode" />
             </div>
             <div>
-              <p>Skywork Pro excels in infrastructure services, delivering reliable, innovative solutions with precision and expertise. Trust Skywork Pro for top-tier infrastructure support and excellence.</p>
+              <p>Excel in infrastructure services with Skywork Pro's reliable. innovative solutions delivered with precision and expertise. Count on us for top-tire support and excellence.</p>
             </div>
             <div>
               <Link to="/service" className="button">Learn more</Link>
@@ -56,8 +56,7 @@ export default function HomeMain() {
               <img src="/images/3.jpg" alt="an image of an electric pole" />
             </div>
             <div>
-              <p>Skywork Pro specializes in transmission and distribution pole inspections, providing accurate, efficient assessments using advanced drone technology.
-                Rely on Skywork Pro for safe and reliable pole inspections.</p>
+              <p>Specializing in transmission and distribution pole inspections, Skywork Pro provides accurate, efficient assessments using advance drone technology. Rely on us for safe and reliable inspections.</p>
             </div>
             <div className="custom-button">
               <Link to="/service" className="button">Learn more</Link>
@@ -69,8 +68,7 @@ export default function HomeMain() {
               <img src="/images/8.jpg" alt="an image of LiDAR technology" />
             </div>
             <div>
-              <p>Skywork Pro offers superior LiDAR services, delivering high-precision mapping and data collection.
-                Count on Skywork Pro for cutting-edge LiDAR solutions and unmatched accuracy.</p>
+              <p>Offering superior LiDAR services, Skywork Pro delivers high-precision mapping and data collection. Trust us for cutting-edge LiDAR solutions and unmatched accuracy.</p>
             </div>
             <div>
               <Link to="/service" className="button">Learn more</Link>
@@ -133,7 +131,7 @@ export default function HomeMain() {
           <div className="cards">
             <h3>Reduce Operational Costs & Save Time</h3>
             <div>
-              <p>Minimize overspending from asset downtime and high repair quickly.</p>
+              <p>Minimize overspending from asset downtime and high repair cost quickly.</p>
             </div>
           </div>
           <div className="cards">
