@@ -31,7 +31,7 @@ export default function CommunityMain() {
           youth through educational initiatives. We volunteer in local schools, teaching students from elementary
           to high school about the benefits and uses of drones. Through hands-on activities, such as drone soccer,
           we aim to spark interest in drone technology and encourage future careers as drone pilots.
-          Skywork Pro is not just about technology; it's about making a positive impact on our communities by promoting safety and inspiring the next generation
+          Skywork Pro is not just about technology; it's about making a positive impact on our communities by promoting safety and inspiring the next generation.
         </p>
       </div>
     </section>

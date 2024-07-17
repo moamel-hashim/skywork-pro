@@ -78,7 +78,7 @@ export default function HomeMain() {
       </section>
       <section>
         <div className="title">
-          <h2>Why Chose Skywork pro?</h2>
+          <h2>Why Chose Skywork Pro?</h2>
         </div>
         <article>
           Experience unparalleled expertise in drone technology and aerial inspections with Skywork Pro. Our state-of-the-art
