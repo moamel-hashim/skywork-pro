@@ -1,4 +1,4 @@
-$primary-color:#1A75CF;
+$primary-color: #1A75CF;
 $secondary-color: #FF621B;
 
 @mixin phone {
@@ -19,66 +19,139 @@ header {
   padding: 2rem;
   backdrop-filter: blur(3px);
   background-color: hsla(0, 0%, 83%, 0.5);
+
   @include phone {
     padding: 1rem;
+    background: none;
   }
+
   .logo-container {
     display: flex;
     align-items: center;
     gap: 20px;
     width: 50%;
+
+    @include phone {
+      width: 75%;
+      display: block;
+    }
+
     h1 {
       text-transform: uppercase;
+
       a {
         text-decoration: none;
         color: $primary-color;
       }
+
       span {
         color: $secondary-color;
       }
     }
+
     div {
       width: 50%;
+
+      @include phone {
+        width: 100%;
+      }
+
       img {
         width: 100%;
       }
     }
   }
+
   .nav-container {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    @include phone {
-      .hidden {
-        display: block;
-      }
-    }
-    .hidden {
+
+    .hamburger-menu {
       display: none;
     }
+
+    @include phone {
+      display: block;
+      text-align: end;
+
+      .hamburger-menu {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-top: 1rem;
+        padding-right: 1rem;
+
+        .side-menu {
+          margin-top: 1rem;
+        }
+
+        button {
+          background: none;
+          border: none;
+          font-size: 1.5rem;
+        }
+
+        .side-menu-nav {
+          display: flex;
+          flex-direction: column;
+
+          a {
+            padding: 1rem;
+          }
+        }
+      }
+
+      .side-menu-style {
+        height: 100vh;
+        width: 50%;
+        backdrop-filter: blur(3px);
+        background-color: hsla(0, 0%, 70%, 0.9);
+      }
+    }
   }
+
   nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
+
     @include phone {
-      display: none;
+      display: block;
     }
+
     a {
       text-decoration: none;
       color: black;
       padding: 1rem 1.5rem;
       transition: background ease-in-out .5s;
+
+      @include phone {
+        padding: 0;
+      }
     }
+
     a:hover {
       color: $primary-color;
     }
+
     .active {
       text-decoration: underline;
       text-underline-offset: 15px;
       text-decoration-color: $primary-color;
       text-decoration-thickness: 2px;
+    }
+  }
+
+  @include phone {
+    .hidden {
+      display: none;
+    }
+
+    .not-hidden {
+      display: block;
     }
   }
 }

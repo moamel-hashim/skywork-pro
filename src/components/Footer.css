@@ -19,6 +19,12 @@ footer .copyright {
   gap: 20px;
   width: 50%;
 }
+@media only screen and (max-width: 600px) {
+  .footer .logo-container {
+    display: block;
+    width: 100%;
+  }
+}
 .footer .logo-container h1 {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
@@ -39,6 +45,11 @@ footer .copyright {
 .footer .footer-container {
   display: flex;
   justify-content: space-around;
+}
+@media only screen and (max-width: 600px) {
+  .footer .footer-container {
+    margin-top: 5px;
+  }
 }
 .footer .footer-container h3 {
   color: #1A75CF;

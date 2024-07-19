@@ -3,11 +3,20 @@ $secondary-color: #ff621b;
 $roboto: "Roboto";
 $openSans: "Open Sans";
 
+@mixin phone {
+  @media only screen and (max-width: 600px) {
+    @content;
+  }
+}
+
 .contact-page {
   width: 75%;
   margin: 0 auto;
   display: block;
   margin-top: 10rem;
+  @include phone {
+    width: 100%;
+  }
   header {
     display: block;
     position: relative;
@@ -31,6 +40,10 @@ $openSans: "Open Sans";
     margin-left: 1rem;
     box-shadow: 0px 0px 10px $primary-color;
     border-radius: 8px;
+    width: 100%;
+    @include phone {
+      width: 90%;
+    }
     span {
       color: rgb(207, 36, 36);
     }
@@ -44,6 +57,9 @@ $openSans: "Open Sans";
       padding: 0.5rem 0 0.5rem 0;
       margin: 0.5rem 0 0.5rem 0;
       border-radius: 8px;
+      @include phone {
+        width: 100%;
+      }
     }
   }
   div textarea {
@@ -53,6 +69,9 @@ $openSans: "Open Sans";
     padding: 0.5rem 0 0.5rem 0;
     margin: 0.5rem 0 0.5rem 0;
     border-radius: 8px;
+    @include phone {
+      width: 100%;
+    }
   }
   .button-container {
     width: 25%;
