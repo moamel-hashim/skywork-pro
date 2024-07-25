@@ -32,7 +32,7 @@ export default function Footer() {
       </div>
       </div>
     <div className="copyright">
-      <p><i> &copy; all rights are reserved by Skywork pro</i></p>
+      <p><i> &copy; All Rights are Reserved by Skywork Pro.</i></p>
     </div>
     </footer>
   )

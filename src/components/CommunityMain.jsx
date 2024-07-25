@@ -6,20 +6,7 @@ export default function CommunityMain() {
     <main className="community">
     <section>
       <div>
-        <h2>Engagement</h2>
-      </div>
-      <div>
-        <h4>Skywork Pro's Community Engagment with FIDA Soccer Camps</h4>
-          <p>Skywork Pro is proud to partner with FIDA soccer camps to engage youth in the exciting world of drones
-            and drone aviation. By incorporating drone demonstrations and interactive sessions into the camp's
-            activities, we aim to inspire and educate young participants about the technology ignite curiosity
-            and foster a new generation of drone enthusiasts. For more information,
-            visit <a href="https://fidausa.com/">FIDA Soccer Camps</a>.</p>
-      </div>
-    </section>
-    <section>
-      <div>
-        <h2>Community safety</h2>
+        <h2>Community</h2>
       </div>
       <div>
         <h4>Skywork Pro's Commitment to Community Safety and Education</h4>
@@ -33,6 +20,16 @@ export default function CommunityMain() {
           we aim to spark interest in drone technology and encourage future careers as drone pilots.
           Skywork Pro is not just about technology; it's about making a positive impact on our communities by promoting safety and inspiring the next generation.
         </p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h4>Skywork Pro's Community Engagment with FIDA Soccer Camps</h4>
+          <p>Skywork Pro is proud to partner with FIDA soccer camps to engage youth in the exciting world of drones
+            and drone aviation. By incorporating drone demonstrations and interactive sessions into the camp's
+            activities, we aim to inspire and educate young participants about the technology ignite curiosity
+            and foster a new generation of drone enthusiasts. For more information,
+            visit <a href="https://fidausa.com/">FIDA Soccer Camps</a>.</p>
       </div>
     </section>
     <section>

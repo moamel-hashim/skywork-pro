@@ -16,9 +16,8 @@ header {
   z-index: 1;
   right: 0;
   left: 0;
-  padding: 2rem;
+  padding: 1rem;
   backdrop-filter: blur(3px);
-  background-color: hsla(0, 0%, 83%, 0.5);
 
   @include phone {
     padding: 1rem;
@@ -30,6 +29,7 @@ header {
     align-items: center;
     gap: 20px;
     width: 50%;
+    justify-content: center;
 
     @include phone {
       width: 75%;
@@ -50,7 +50,7 @@ header {
     }
 
     div {
-      width: 50%;
+      width: 35%;
 
       @include phone {
         width: 100%;
@@ -115,8 +115,10 @@ header {
 
   nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10px;
     width: 100%;
+    letter-spacing: 1px;
 
     @include phone {
       display: block;

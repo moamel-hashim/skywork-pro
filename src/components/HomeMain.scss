@@ -14,20 +14,21 @@ $openSans: 'Open Sans';
   display: flex;
   position: relative;
   width: 100%;
-  height: 1000px;
+  height: 900px;
   object-fit: cover;
   object-position: 50% 50%;
   .hero-text {
     position: absolute;
     color: black;
-    bottom: 0;
-    right: 0;
+    bottom: 10rem;
+    right: 10rem;
     width: 30%;
     margin-right: 3rem;
     background-color: hsla(0, 0%, 100%, 0.5);
     backdrop-filter: blur(3px);
     border-radius: 5px;
-    height: 612px;
+    text-align: center;
+    height: 400px;
     padding: 1rem;
     font-family: $openSans, sans-serif;
     box-sizing: border-box;
@@ -111,6 +112,15 @@ section:nth-child(2) {
     .cards:nth-child(3) {
     div {
       margin: 1.6rem 0 2rem 0;
+    }
+  }
+  .align-center {
+    text-align: center;
+    margin: 3rem 0 1rem 0;
+    a {
+      text-decoration: none;
+      color: $primary-color;
+      cursor: pointer;
     }
   }
 }

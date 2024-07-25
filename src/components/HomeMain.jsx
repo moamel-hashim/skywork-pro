@@ -18,7 +18,7 @@ export default function HomeMain() {
               <Link to='/contact'>Contact Us</Link>
             </div>
           </div>
-          <img src="/images/2.jpg" alt="Drone hero image" />
+          <img src="/images/drone.webp" alt="Drone hero image" />
         </div>
       </section>
       <section>
@@ -32,10 +32,7 @@ export default function HomeMain() {
               <img src="/images/Exo-inc-aerial-inspection-drones.jpg" alt="Drone flying by a power pole for inspection" />
             </div>
             <div>
-              <p>Leading in aerial drone inspection, Skywork Pro offers precise, detailed, and safe assessments with cutting-edge technology. Trust us for top=quality, efficient results.</p>
-            </div>
-            <div className="aerial-button">
-              <Link to="/service" className="button">Learn more</Link>
+              <p>Leading in aerial drone inspections, Skywork Pro offers precise, detailed, and safe assessments with cutting-edge technology.</p>
             </div>
           </div>
           <div className="cards">
@@ -44,10 +41,7 @@ export default function HomeMain() {
               <img src="/images/structure-rode.jpg" alt="an image of structures and rode" />
             </div>
             <div>
-              <p>Excel in infrastructure services with Skywork Pro's reliable. innovative solutions delivered with precision and expertise. Count on us for top-tire support and excellence.</p>
-            </div>
-            <div>
-              <Link to="/service" className="button">Learn more</Link>
+              <p>Excel in infrastructure services with Skywork Pro's reliable. innovative solutions delivered with precision and expertise.</p>
             </div>
           </div>
           <div className="cards">
@@ -56,10 +50,7 @@ export default function HomeMain() {
               <img src="/images/3.jpg" alt="an image of an electric pole" />
             </div>
             <div>
-              <p>Specializing in transmission and distribution pole inspections, Skywork Pro provides accurate, efficient assessments using advance drone technology. Rely on us for safe and reliable inspections.</p>
-            </div>
-            <div className="custom-button">
-              <Link to="/service" className="button">Learn more</Link>
+              <p>Specializing in transmission and distribution pole inspections, Skywork Pro provides accurate, efficient assessments using advanced drone technology.</p>
             </div>
           </div>
           <div className="cards">
@@ -68,22 +59,22 @@ export default function HomeMain() {
               <img src="/images/8.jpg" alt="an image of LiDAR technology" />
             </div>
             <div>
-              <p>Offering superior LiDAR services, Skywork Pro delivers high-precision mapping and data collection. Trust us for cutting-edge LiDAR solutions and unmatched accuracy.</p>
-            </div>
-            <div>
-              <Link to="/service" className="button">Learn more</Link>
+              <p>Offering LiDAR services. Skywork Pro delivers high-precision mapping and data collection. We provide cutting-edge LiDAR solutions and unmatched accuracy.</p>
             </div>
           </div>
         </div>
+          <div className="align-center">
+            <p>Click <Link to="/services">here</Link> to learn more.</p>
+          </div>
       </section>
       <section>
         <div className="title">
           <h2>Why Chose Skywork Pro?</h2>
         </div>
         <article>
-          Experience unparalleled expertise in drone technology and aerial inspections with Skywork Pro. Our state-of-the-art
-          equipment and experienced team deliver precise, efficient, and safe assessments for a wide range of applications,
-          including infrastructure, transmission, distribution, substations, LiDAR data and many more application. With a commitment
+          Experience unparalleled expertise in drone technology, and aerial inspections with Skywork Pro. Our state-of-the-art
+          equipment and experienced team deliver efficient, precise, and safe assessments for a wide range of applications,
+          including infrastructure, transmission, distribution, substations, LiDAR data and many more applications. With a commitment
           to innovation and quality, Skywork Pro provides reliable, detailed results that enhance operational efficiency and safety.
           Trust Skywork Pro for exceptional service and industry-leading solutions tailored to your specific needs.
         </article>
@@ -123,25 +114,25 @@ export default function HomeMain() {
         </div>
         <div className="cards-container">
           <div className="cards">
-            <h3>Detect Potential Risk in Advance</h3>
+            <h4>Detect Potential Risk in Advance</h4>
             <div>
               <p>Identify and eliminate potential risks before they lead to unplanned costs or disasters.</p>
             </div>
           </div>
           <div className="cards">
-            <h3>Reduce Operational Costs & Save Time</h3>
+            <h4>Reduce Operational Costs & Save Time</h4>
             <div>
               <p>Minimize overspending from asset downtime and high repair cost quickly.</p>
             </div>
           </div>
           <div className="cards">
-            <h3>Mitigate Regulatory Compliance Burdens</h3>
+            <h4>Mitigate Regulatory Compliance Burdens</h4>
             <div>
-              <p>Quick deliverables and comprehensive solutions for better regulatory management</p>
+              <p>Quick deliverables and comprehensive solutions for compliance and effective regulatory management.</p>
             </div>
           </div>
           <div className="cards">
-            <h3>Automate Complex Processes</h3>
+            <h4>Automate Complex Processes</h4>
             <div>
               <p>Utilize data-driven methods to drive optimal utility performance and efficient operations.</p>
             </div>
