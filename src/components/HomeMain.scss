@@ -28,7 +28,7 @@ $openSans: 'Open Sans';
     backdrop-filter: blur(3px);
     border-radius: 5px;
     text-align: center;
-    height: 400px;
+    height: 500px;
     padding: 1rem;
     font-family: $openSans, sans-serif;
     box-sizing: border-box;
@@ -39,7 +39,7 @@ $openSans: 'Open Sans';
     }
 
     h3 {
-      font-size: 2.5rem;
+      font-size: 1.8rem;
       font-family: $roboto, sans-serif;
       @include phone {
         font-size: 1.5rem;
@@ -117,9 +117,11 @@ section:nth-child(2) {
   .align-center {
     text-align: center;
     margin: 3rem 0 1rem 0;
+    p {
+      font-size: 1.5rem;
+    }
     a {
       text-decoration: none;
-      color: $primary-color;
       cursor: pointer;
     }
   }
@@ -207,6 +209,12 @@ section:nth-child(4) {
       padding: 1rem;
       border-right: $primary-color solid 2px;
       font-family: $openSans, sans-serif;
+      h5 {
+        font-size: 0.8rem;
+      }
+      p {
+        font-size: 0.9rem;
+      }
       @include phone {
         border-right: none;
         border-bottom: $primary-color solid 1px;

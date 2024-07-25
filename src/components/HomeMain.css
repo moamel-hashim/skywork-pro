@@ -20,7 +20,7 @@
           backdrop-filter: blur(3px);
   border-radius: 5px;
   text-align: center;
-  height: 400px;
+  height: 500px;
   padding: 1rem;
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
@@ -33,7 +33,7 @@
   }
 }
 .hero-img-container .hero-text h3 {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-family: "Roboto", sans-serif;
 }
 @media only screen and (max-width: 600px) {
@@ -114,9 +114,11 @@ section:nth-child(2) .align-center {
   text-align: center;
   margin: 3rem 0 1rem 0;
 }
+section:nth-child(2) .align-center p {
+  font-size: 1.5rem;
+}
 section:nth-child(2) .align-center a {
   text-decoration: none;
-  color: #1A75CF;
   cursor: pointer;
 }
 
@@ -205,6 +207,12 @@ section:nth-child(4) .cards-container .cards {
   padding: 1rem;
   border-right: #1A75CF solid 2px;
   font-family: "Open Sans", sans-serif;
+}
+section:nth-child(4) .cards-container .cards h5 {
+  font-size: 0.8rem;
+}
+section:nth-child(4) .cards-container .cards p {
+  font-size: 0.9rem;
 }
 @media only screen and (max-width: 600px) {
   section:nth-child(4) .cards-container .cards {

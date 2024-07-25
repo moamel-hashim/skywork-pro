@@ -64,7 +64,7 @@ export default function HomeMain() {
           </div>
         </div>
           <div className="align-center">
-            <p>Click <Link to="/services">here</Link> to learn more.</p>
+            <Link to="/services" className="button">Learn more</Link>
           </div>
       </section>
       <section>
@@ -114,25 +114,25 @@ export default function HomeMain() {
         </div>
         <div className="cards-container">
           <div className="cards">
-            <h4>Detect Potential Risk in Advance</h4>
+            <h5>Detect Potential Risk in Advance</h5>
             <div>
               <p>Identify and eliminate potential risks before they lead to unplanned costs or disasters.</p>
             </div>
           </div>
           <div className="cards">
-            <h4>Reduce Operational Costs & Save Time</h4>
+            <h5>Reduce Operational Costs & Save Time</h5>
             <div>
               <p>Minimize overspending from asset downtime and high repair cost quickly.</p>
             </div>
           </div>
           <div className="cards">
-            <h4>Mitigate Regulatory Compliance Burdens</h4>
+            <h5>Mitigate Regulatory Compliance Burdens</h5>
             <div>
               <p>Quick deliverables and comprehensive solutions for compliance and effective regulatory management.</p>
             </div>
           </div>
           <div className="cards">
-            <h4>Automate Complex Processes</h4>
+            <h5>Automate Complex Processes</h5>
             <div>
               <p>Utilize data-driven methods to drive optimal utility performance and efficient operations.</p>
             </div>
