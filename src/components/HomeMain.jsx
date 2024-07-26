@@ -9,7 +9,7 @@ export default function HomeMain() {
       <section>
         <div className="hero-img-container">
           <div className="hero-text">
-            <h3>Transmission & Distribution Inspections</h3>
+            <h3>Pro Community</h3>
             <p>
               Skywork Pro is a premier UAS (unmanned aerial systems) comprehensive service provider for utility networks and public safety.
                Our team is made of seasoned veterans specialized in the use of UAV's (unmanned aerial vehicles).
