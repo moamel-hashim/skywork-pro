@@ -13,7 +13,8 @@
   color: black;
   bottom: 10rem;
   right: 10rem;
-  width: 30%;
+  width: 100%;
+  max-width: 400px;
   margin-right: 3rem;
   background-color: hsla(0, 0%, 100%, 0.5);
   -webkit-backdrop-filter: blur(3px);
@@ -27,9 +28,12 @@
 }
 @media only screen and (max-width: 600px) {
   .hero-img-container .hero-text {
-    width: 50%;
+    width: 75%;
     margin-right: 0;
-    height: auto;
+    height: 450px;
+    padding: 0;
+    bottom: 0;
+    right: 0;
   }
 }
 .hero-img-container .hero-text h3 {

@@ -22,7 +22,8 @@ $openSans: 'Open Sans';
     color: black;
     bottom: 10rem;
     right: 10rem;
-    width: 30%;
+    width: 100%;
+    max-width: 400px;
     margin-right: 3rem;
     background-color: hsla(0, 0%, 100%, 0.5);
     backdrop-filter: blur(3px);
@@ -33,9 +34,12 @@ $openSans: 'Open Sans';
     font-family: $openSans, sans-serif;
     box-sizing: border-box;
     @include phone {
-      width: 50%;
+      width: 75%;
       margin-right: 0;
-      height: auto;
+      height: 450px;
+      padding: 0;
+      bottom: 0;
+      right: 0;
     }
 
     h3 {
