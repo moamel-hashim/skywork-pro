@@ -19,7 +19,8 @@ export default function HomeMain() {
               <Link to='/contact'>Contact Us</Link>
             </div>
           </div>
-          <img src="/images/drone.webp" alt="Drone hero image" />
+          <img src="/images/drone.webp" alt="Drone hero image" className="first-drone"/>
+          <img src="/images/d02.webp" alt=""  className="second-drone"/>
         </div>
       </section>
       <section>

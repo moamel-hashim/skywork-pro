@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="footer">
       <div className='logo-container'>
         <div>
-            <img src="/images/SWP HORIZONTAL.png" alt="Logo" />
+            <img src="/images/SWP WEB.png" alt="Logo" />
         </div>
       </div>
       <div className="footer-container">

@@ -39,7 +39,7 @@ $openSans: 'Open Sans';
       height: 450px;
       padding: 0;
       bottom: 0;
-      right: 0;
+      right: 0.6in;
     }
 
     h3 {
@@ -69,6 +69,17 @@ $openSans: 'Open Sans';
   img {
     width: 100%;
   }
+  .second-drone {
+    display: none;
+    @include phone {
+      display: block;
+    }
+  }
+  .first-drone {
+    @include phone {
+      display: none;
+    }
+  }
 }
 
 section:nth-child(2) {
@@ -90,7 +101,7 @@ section:nth-child(2) {
     }
     .cards {
       width: 300px;
-      height: 600px;
+      height: 500px;
       overflow: hidden;
       box-shadow: 0px 0px 10px $primary-color;
       border-radius: 5px;

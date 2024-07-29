@@ -33,7 +33,7 @@
     height: 450px;
     padding: 0;
     bottom: 0;
-    right: 0;
+    right: 0.6in;
   }
 }
 .hero-img-container .hero-text h3 {
@@ -64,6 +64,19 @@
 .hero-img-container img {
   width: 100%;
 }
+.hero-img-container .second-drone {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .hero-img-container .second-drone {
+    display: block;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero-img-container .first-drone {
+    display: none;
+  }
+}
 
 section:nth-child(2) {
   font-family: "Roboto", sans-serif;
@@ -88,7 +101,7 @@ section:nth-child(2) .cards-container {
 }
 section:nth-child(2) .cards-container .cards {
   width: 300px;
-  height: 600px;
+  height: 500px;
   overflow: hidden;
   box-shadow: 0px 0px 10px #1A75CF;
   border-radius: 5px;
