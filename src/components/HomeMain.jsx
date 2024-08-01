@@ -31,7 +31,7 @@ export default function HomeMain() {
           <div className="cards">
             <h3>Aerial Services</h3>
             <div>
-              <img src="/images/Exo-inc-aerial-inspection-drones.jpg" alt="Drone flying by a power pole for inspection" />
+              <img src="/images/drone-inspection.jpg" alt="Drone flying by a power pole for inspection" />
             </div>
             <div>
               <p>Leading in aerial drone inspections, Skywork Pro offers precise, detailed, and safe assessments with cutting-edge technology.</p>

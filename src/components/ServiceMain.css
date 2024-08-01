@@ -85,15 +85,15 @@
     flex-direction: column-reverse;
   }
 }
-.service section:nth-child(7) {
+.service section:nth-child(6) {
   justify-content: center;
 }
 @media only screen and (max-width: 600px) {
-  .service section:nth-child(7) {
+  .service section:nth-child(6) {
     text-align: center;
   }
 }
-.service section:nth-child(7) a {
+.service section:nth-child(6) a {
   color: #1a75cf;
   background-color: white;
   padding: 0;

@@ -9,7 +9,9 @@ export default function ServiceMain() {
         </div>
         <div>
           <p>
-            At Skywork Pro, we are dedicated to enhancing the performance and longevity of your utility assets through insightful data. Our specialized services focus on proactive analytics and responsive insights, ensuring optimal conditions and uninterrupted operations. Leveraging cutting-edge tools and technology, Skywork Pro provides precise and safe infrastructure inspections, enabling timely maintenance and early risk detection. Combining intelligence-driven technology with our team's expertise, Skywork pro delivers innovative, cost-effective solutions tailored to your needs.
+            At Skywork Pro, we are dedicated to enhancing the performance and longevity of your utility assets through insightful data. Our specialized services focus on proactive analytics and responsive insights, ensuring optimal conditions and uninterrupted operations.
+            Leveraging cutting-edge tools and technology, Skywork Pro provides precise and safe infrastructure inspections, enabling timely maintenance and early risk detection.
+            Combining intelligence-driven technology with our team's expertise, Skywork Pro delivers innovative, cost-effective solutions tailored to your needs.
           </p>
         </div>
       </header>
@@ -17,13 +19,27 @@ export default function ServiceMain() {
       <section>
         <div>
           <h3>Our Services</h3>
-          <p>Skywork Pro offers a wide range of specialized services, including</p>
+          <p>Skywork Pro offers a wide range of specialized services for multiple industries, including but not limited to </p>
           <ul>
-            <li>Inspections</li>
+            <li>Utility Inspections</li>
             <li>LiDAR Technology</li>
             <li>Mapping Orthomosaics</li>
             <li>3D Models</li>
             <li>Infrared/RGB/Thermal Imaging</li>
+            <li>Cinematography / Photography</li>
+          </ul>
+          <h3>Industries Served</h3>
+          <ul>
+            <li>Agriculture</li>
+            <li>Construction</li>
+            <li>Compliance</li>
+            <li>Entertainment</li>
+            <li>Military</li>
+            <li>Oil & Gas</li>
+            <li>Public Safety</li>
+            <li>Security</li>
+            <li>Utilities (Electric, Energy, Gas, Solar, Telecom, Water)</li>
+            <li>Wildlife Disaster Relief</li>
           </ul>
           <div>
             <Link to="/contact">contact us</Link>
@@ -35,13 +51,20 @@ export default function ServiceMain() {
       </section>
       <section>
         <div>
-          <h3>Power Grid</h3>
-          <p>Skywork Pro offers an excellent inspections and services using cutting edge technology</p>
+          <h3>Electric Utilities Management</h3>
+          <p>Skywork Pro is a leading provider of advanced inspection services for electrical utility networks.
+            Our mission is to ensure the safety, security, and integrity of critical infrastructure, protecting and enhancing the safety and security of our communities.
+          </p>
+          <p>Skywork Pro offers a multitude of services to keep your utility network compliant, manageable, and safe.</p>
           <ul>
             <li>Transmission and Distribution Inspection Services</li>
-            <li>LiDAR / Corona Solutions</li>
-            <li>PSP Inspections</li>
+            <li>PSPS Inspections</li>
             <li>Substation Inspections</li>
+            <li>Wildfire Mitigation</li>
+            <li>Vegetation Management</li>
+            <li>LiDAR / Corona Solutions</li>
+            <li>Infrared / RGB / Thermal Imaging</li>
+            <li>Disaster Relief</li>
           </ul>
           <div>
             <Link to="/contact">contact us</Link>
@@ -54,56 +77,40 @@ export default function ServiceMain() {
 
       <section>
         <div>
-          <h3>Imaging Solutions</h3>
-          <p>Our advanced imaging services provide</p>
-          <ul>
-            <li>Disaster Relief</li>
-            <li>Wildfire Mitigation</li>
-            <li>PSPS Services</li>
-            <li>Security</li>
-            <li>Project Analysis</li>
-          </ul>
-          <div>
-            <Link to="/contact">contact us</Link>
-          </div>
-        </div>
-        <div>
-          <img src="/images/ic_1707343041_1600x_false.jpg" alt="drone imaging solutions" />
-        </div>
-      </section>
-
-      <section>
-        <div>
           <h3>Management Services</h3>
-          <p>We excel in offering comprehensive management services such as</p>
+          <p>We excel in offering comprehensive management services such as;</p>
           <ul>
+            <li>Project Analysis & Management</li>
             <li>Vegetation Management</li>
-            <li>Magnetometer Surveys</li>
+            <li>Magnetometer Survey</li>
             <li>Hydrology & Watershed Analysis</li>
+            <li>Erosion Control & Prevention</li>
           </ul>
           <div>
             <Link to="/contact">contact us</Link>
           </div>
         </div>
         <div>
-          <img src="/images/0_Va-gv_srB-RhsRWi.jpg" alt="aerial view of vegetation management" />
+          <img src="/images/0_Va-gv_srB-RhsRWi.jpg" alt="aerial view of vegetation managemen" />
         </div>
       </section>
 
       <section>
         <div>
-          <h3>Erosion Control</h3>
-          <p>Our erosion control services include</p>
+          <h3>Public Safety</h3>
+          <p>We take pride in keeping the communities that serve us safe by providing these services back to the community.</p>
           <ul>
-            <li>Photography</li>
-            <li>Cinematography</li>
+            <li>Disaster Mitigation & Relief</li>
+            <li>Emergency Services</li>
+            <li>Search & Rescue</li>
+            <li>Security</li>
           </ul>
           <div>
             <Link to="/contact">contact us</Link>
           </div>
         </div>
         <div>
-          <img src="/images/DJI_0246-scaled.webp" alt="drone image of erosion control" />
+          <img src="/images/dji-drone.jpg" alt="aerial view of vegetation management" />
         </div>
       </section>
 
