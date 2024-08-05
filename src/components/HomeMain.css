@@ -20,7 +20,6 @@
   -webkit-backdrop-filter: blur(3px);
           backdrop-filter: blur(3px);
   border-radius: 5px;
-  text-align: center;
   height: 450px;
   padding: 1rem;
   font-family: "Open Sans", sans-serif;
@@ -34,11 +33,13 @@
     padding: 0;
     bottom: 0;
     right: 0.6in;
+    padding-left: 10px;
   }
 }
 .hero-img-container .hero-text h3 {
   font-size: 1.8rem;
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 @media only screen and (max-width: 600px) {
   .hero-img-container .hero-text h3 {
@@ -120,8 +121,8 @@ section:nth-child(2) .cards-container .cards .custom-button {
 section:nth-child(2) .cards-container .cards img {
   width: 100%;
   height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
   border-radius: 8px;
 }
 section:nth-child(2) .cards:nth-child(3) div {
@@ -169,35 +170,18 @@ section:nth-child(3) {
   max-width: 1000px;
   margin: 0 auto;
 }
+section:nth-child(3) .triangle {
+  text-align: center;
+  font-size: 2rem;
+  color: orange;
+}
+section:nth-child(3) .triangle h3 {
+  margin: 0;
+}
 section:nth-child(3) article {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   padding: 1rem;
-}
-section:nth-child(3) .cards-container {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-}
-section:nth-child(3) .cards {
-  width: 100%;
-  max-width: 300px;
-  height: 300px;
-  background-color: whitesmoke;
-  margin-top: 1rem;
-  color: black;
-  border-radius: 8px;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  box-shadow: 0px 0px 10px #1A75CF;
-}
-section:nth-child(3) .cards svg {
-  font-size: 2rem;
 }
 
 section:nth-child(4) {

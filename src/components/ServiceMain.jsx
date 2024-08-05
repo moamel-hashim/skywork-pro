@@ -9,9 +9,7 @@ export default function ServiceMain() {
         </div>
         <div>
           <p>
-            At Skywork Pro, we are dedicated to enhancing the performance and longevity of your utility assets through insightful data. Our specialized services focus on proactive analytics and responsive insights, ensuring optimal conditions and uninterrupted operations.
-            Leveraging cutting-edge tools and technology, Skywork Pro provides precise and safe infrastructure inspections, enabling timely maintenance and early risk detection.
-            Combining intelligence-driven technology with our team's expertise, Skywork Pro delivers innovative, cost-effective solutions tailored to your needs.
+            While never compromising safety, Skywork Pro consistently achieves significant results with strong efficiency. This is facilitated by the utilization of advanced technology and comprehensive analytics. reducing potential expenses and safeguarding our most valuable asset ,our crew. This focus allows us to maintain significant operational output ensuring timely and reliable service for our clients.
           </p>
         </div>
       </header>

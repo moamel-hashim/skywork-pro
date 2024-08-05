@@ -1,4 +1,4 @@
-$primary-color:#1A75CF;
+$primary-color: #1A75CF;
 $secondary-color: #FF621B;
 $roboto: 'Roboto';
 $openSans: 'Open Sans';
@@ -17,6 +17,7 @@ $openSans: 'Open Sans';
   height: 900px;
   object-fit: cover;
   object-position: 50% 50%;
+
   .hero-text {
     position: absolute;
     color: black;
@@ -28,11 +29,11 @@ $openSans: 'Open Sans';
     background-color: hsla(0, 0%, 100%, 0.5);
     backdrop-filter: blur(3px);
     border-radius: 5px;
-    text-align: center;
     height: 450px;
     padding: 1rem;
     font-family: $openSans, sans-serif;
     box-sizing: border-box;
+
     @include phone {
       width: 75%;
       margin-right: 0;
@@ -40,41 +41,51 @@ $openSans: 'Open Sans';
       padding: 0;
       bottom: 0;
       right: 0.6in;
+      padding-left: 10px;
     }
 
     h3 {
       font-size: 1.8rem;
       font-family: $roboto, sans-serif;
+      text-align: center;
+
       @include phone {
         font-size: 1.5rem;
       }
     }
+
     .button-container {
       margin-top: 3rem;
     }
+
     a {
       text-decoration: none;
       color: white;
       background-color: $primary-color;
       padding: 0.7rem 1.5rem;
       text-transform: uppercase;
-      font-family: $roboto,sans-serif;
+      font-family: $roboto, sans-serif;
       border-radius: 5px;
       transition: background 0.5s;
     }
+
     a:hover {
       background-color: #063e75;
     }
   }
+
   img {
     width: 100%;
   }
+
   .second-drone {
     display: none;
+
     @include phone {
       display: block;
     }
   }
+
   .first-drone {
     @include phone {
       display: none;
@@ -86,19 +97,23 @@ section:nth-child(2) {
   font-family: $roboto, sans-serif;
   padding: 1rem;
   background-color: whitesmoke;
+
   .title {
     margin-top: 2rem;
     text-align: center;
     color: $primary-color;
   }
+
   .cards-container {
     display: flex;
     justify-content: center;
     gap: 15px;
+
     @include phone {
       flex-wrap: wrap;
       justify-content: space-around;
     }
+
     .cards {
       width: 300px;
       height: 500px;
@@ -107,34 +122,42 @@ section:nth-child(2) {
       border-radius: 5px;
       text-align: center;
       padding: 1rem;
+
       div {
         margin: 3rem 0 2rem 0;
       }
+
       .aerial-button {
         margin: 4rem 0 2rem 0;
       }
+
       .custom-button {
         margin: 3rem 0 2rem 0;
       }
+
       img {
         width: 100%;
         height: 200px;
-        object-fit: cover;
+        object-fit: fill;
         border-radius: 8px;
       }
     }
   }
-    .cards:nth-child(3) {
+
+  .cards:nth-child(3) {
     div {
       margin: 1.6rem 0 2rem 0;
     }
   }
+
   .align-center {
     text-align: center;
     margin: 3rem 0 1rem 0;
+
     p {
       font-size: 1.5rem;
     }
+
     a {
       text-decoration: none;
       cursor: pointer;
@@ -172,35 +195,20 @@ p {
 section:nth-child(3) {
   max-width: 1000px;
   margin: 0 auto;
+
+  .triangle {
+    text-align: center;
+    font-size: 2rem;
+    color: orange;
+    h3 {
+      margin: 0;
+    }
+  }
+
   article {
     font-family: $openSans, sans-serif;
     text-align: center;
     padding: 1rem;
-  }
-  .cards-container {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-    font-family: $openSans, sans-serif;
-    text-align: center;
-  }
-  .cards {
-    width: 100%;
-    max-width: 300px;
-    height: 300px;
-    background-color: whitesmoke;
-    margin-top: 1rem;
-    color: black;
-    border-radius: 8px;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-shadow: 0px 0px 10px $primary-color;
-    svg {
-      font-size: 2rem;
-    }
   }
 }
 
@@ -208,33 +216,41 @@ section:nth-child(4) {
   background-color: whitesmoke;
   padding: 1rem;
   margin-top: 1rem;
+
   h2 {
     font-family: $roboto, sans-serif;
     text-align: center;
     color: $primary-color;
   }
+
   .cards-container {
     display: flex;
     width: 100%;
     text-align: center;
+
     @include phone {
       flex-wrap: wrap;
     }
+
     .cards {
       padding: 1rem;
       border-right: $primary-color solid 2px;
       font-family: $openSans, sans-serif;
+
       h5 {
         font-size: 0.8rem;
       }
+
       p {
         font-size: 0.9rem;
       }
+
       @include phone {
         border-right: none;
         border-bottom: $primary-color solid 1px;
       }
     }
+
     .cards:nth-child(4) {
       border-right: none;
     }
