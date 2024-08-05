@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './ContactMain.css';
+
 export default function ContactMain() {
   const [formData, setFormData] = useState({
     firstName: '',
@@ -11,21 +12,24 @@ export default function ContactMain() {
     country: '',
     message: ''
   });
+
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormData((prevData) => ({
       ...prevData,
       [name]: value
     }));
-  }
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+    emailjs.sendForm('service_oba9kad', 'template_6pmljbq', e.target, '-aFmEg-iRDqv0cvXj')
       .then((result) => {
         alert('Message sent successfully!');
+        console.log(result)
       }, (error) => {
         alert('Failed to send the message, please try again.');
+        console.log(error)
       });
     setFormData({
       firstName: '',
@@ -66,7 +70,6 @@ export default function ContactMain() {
             <label htmlFor="lastName">Last Name <span>*</span></label>
           </div>
           <div>
-
             <input
               type="text"
               id="lastName"
@@ -80,7 +83,6 @@ export default function ContactMain() {
             <label htmlFor="company">Company <span>*</span></label>
           </div>
           <div>
-
             <input
               type="text"
               id="company"
@@ -129,11 +131,9 @@ export default function ContactMain() {
             />
           </div>
           <div>
-
             <label htmlFor="message">Message</label>
           </div>
           <div>
-
             <textarea
               id="message"
               name="message"
@@ -148,5 +148,5 @@ export default function ContactMain() {
         </form>
       </section>
     </main>
-  )
+  );
 }
