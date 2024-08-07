@@ -96,7 +96,7 @@ export default function HomeMain() {
             </div>
           </div>
           <div className="cards">
-            <h3>simplify</h3>
+            <h3>Simplify</h3>
             <div>
               <p>Reduce excess expenditures resulting from asset downtime and elevated repair costs in a timely manner.</p>
             </div>
