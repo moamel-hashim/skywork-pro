@@ -10,7 +10,7 @@ $openSans: "Open Sans";
 }
 
 .service {
-  margin-top: 10rem;
+  margin-top: 5rem;
   header {
     display: block;
     width: 50%;
@@ -45,6 +45,7 @@ $openSans: "Open Sans";
     margin-top: 1rem;
     display: flex;
     align-items: center;
+    line-height: 1.3rem;
     @include phone {
       flex-direction: column-reverse;
     }
@@ -73,6 +74,7 @@ $openSans: "Open Sans";
     max-width: none;
     padding: 1rem;
     flex-direction: row-reverse;
+    line-height: 1.3rem;
     margin: 0;
     @include phone {
       flex-direction: column-reverse;
@@ -81,12 +83,14 @@ $openSans: "Open Sans";
   section:nth-child(5) {
     padding: 1rem;
     flex-direction: row-reverse;
+    line-height: 1.3rem;
     @include phone {
       flex-direction: column-reverse;
     }
   }
   section:nth-child(6) {
     justify-content: center;
+    line-height: 1.3rem;
     @include phone {
       text-align: center;
     }

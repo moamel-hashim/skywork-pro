@@ -9,25 +9,24 @@ export default function HomeMain() {
       <section>
         <div className="hero-img-container">
           <div className="hero-text">
-            <h3>Pro-Community</h3>
+            <h3>Skywork <span>Pro</span></h3>
             <p>
-              Skywork Pro is a leading provider of unmanned aerial systems (UAS)
-              services for infrastructure/utility networks and public safety. Our cross-cultural crew
-              consists of safety driven experienced professionals specialized in using unmanned aerial
-              vehicles (UAVs) also known as drones. Our mission is to ensure the safety, security, and integrity
-              of critical infrastructure and the public, thereby enhancing the safety and security of our communities.
+              Skywork Pro is a leading provider of Unmanned Aerial Systems (UAS) services for critical infrastructure, electrical utility networks, and public safety. Our safety-driven, diverse,
+              and experienced team specializes in using Unmanned Aerial Vehicles (UAVs), commonly known as drones.
+              Our mission is to ensure the safety, security, and integrity of critical infrastructure and the public,
+              thereby enhancing the well-being of our communities.
             </p>
             <div className="button-container">
               <Link to='/contact'>Contact Us</Link>
             </div>
           </div>
-          <img src="/images/hero-gurd-drone.jpg" alt="Drone hero image" className="first-drone"/>
+          <img src="/images/drone.webp" alt="Drone hero image" className="first-drone"/>
           <img src="/images/d02.webp" alt=""  className="second-drone"/>
         </div>
       </section>
       <section>
         <div className="title">
-          <h2>Featured UAV Services</h2>
+          <h2>Featured Services</h2>
         </div>
         <div className="cards-container">
           <div className="cards">
@@ -36,7 +35,10 @@ export default function HomeMain() {
               <img src="/images/structure-rode.jpg" alt="an image of structures and rode" />
             </div>
             <div>
-              <p>Excel in infrastructure services with Skywork Pro's reliable. innovative solutions delivered with precision and expertise.</p>
+              <p>We take the safety of our communities seriously.That's why we provide a wide range of innovative and
+                reliable solutions, delivered with precision and expertise, to ensure that our critical infrastructure
+                remains in continuous working order when it matters most.
+              </p>
             </div>
           </div>
           <div className="cards">
@@ -45,18 +47,21 @@ export default function HomeMain() {
               <img src="/images/white-hot.jpg" alt="Drone flying by a power pole for inspection" />
             </div>
             <div>
-              <p>Skywork Pro has developed a program for Public Safety offering strategic surveillance operations and air support for ground
-                responders. Protect and serve the community with Skywork Pro.
+              <p>
+                Skywork Pro has developed a comprehensive Public Safety program, offering strategic surveillance
+                operations and aerial support for ground responders. Partner with Skywork Pro to protect and serve your community.
               </p>
             </div>
           </div>
           <div className="cards">
-            <h3>Transmission & Distribution Pole Inspections</h3>
+            <h3>Electrical Utility Inspection</h3>
             <div>
               <img src="/images/3.jpg" alt="an image of an electric pole" />
             </div>
             <div>
-              <p>Specializing in transmission and distribution pole inspections, Skywork Pro provides safe, accurate, and efficient assessments using advanced drone technology.</p>
+              <p>Specializing in transmission, distribution, and substation inspections, Skywork Pro delivers safe, accurate, and efficient
+                assessments using advanced drone technology.
+              </p>
             </div>
           </div>
           <div className="cards">
@@ -65,7 +70,7 @@ export default function HomeMain() {
               <img src="/images/8.jpg" alt="an image of LiDAR technology" />
             </div>
             <div>
-              <p>Offering LiDAR services. Skywork Pro delivers high-precision mapping and data collection. We provide cutting-edge LiDAR solutions and unmatched accuracy.</p>
+              <p>Skywork Pro delivers high-precision LiDAR data collection and mapping, offering cutting-edge solutions with unmatched accuracy.</p>
             </div>
           </div>
         </div>
@@ -75,13 +80,10 @@ export default function HomeMain() {
       </section>
       <section>
         <div className="title">
-          <h2>Why Chose Skywork Pro?</h2>
-        </div>
-        <div className="triangle">
-          <h3>&#9651;</h3>
+          <h2>Why Choose Skywork Pro?</h2>
         </div>
         <article>
-          While never compromising safety, Skywork Pro consistently achieves significant results with strong efficiency. This is facilitated by the utilization of advanced technology and comprehensive analytics. reducing potential expenses and safeguarding our most valuable asset ,our crew. This focus allows us to maintain significant operational output ensuring timely and reliable service for our clients.
+          Skywork Pro prioritizes safety and reliable data delivery through rigorous practices and professional expertise. We go beyond basic compliance by implementing comprehensive safety protocols. Our highly trained and experienced pilots demonstrate exceptional professionalism on every mission. Their disciplined approach is crucial for managing complex and potentially hazardous situations. Partnering with Skywork Pro ensures a commitment to excellence and a safety-first approach in all operations.
         </article>
       </section>
       <section>

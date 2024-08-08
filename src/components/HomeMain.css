@@ -40,6 +40,10 @@
   font-size: 1.8rem;
   font-family: "Roboto", sans-serif;
   text-align: center;
+  color: #1A75CF;
+}
+.hero-img-container .hero-text h3 span {
+  color: #FF621B;
 }
 @media only screen and (max-width: 600px) {
   .hero-img-container .hero-text h3 {
@@ -102,7 +106,7 @@ section:nth-child(2) .cards-container {
 }
 section:nth-child(2) .cards-container .cards {
   width: 300px;
-  height: 500px;
+  height: 550px;
   overflow: hidden;
   box-shadow: 0px 0px 10px #1A75CF;
   border-radius: 5px;
@@ -124,6 +128,10 @@ section:nth-child(2) .cards-container .cards img {
   -o-object-fit: fill;
      object-fit: fill;
   border-radius: 8px;
+}
+section:nth-child(2) .cards:nth-child(3) {
+  display: flex;
+  flex-direction: column;
 }
 section:nth-child(2) .cards:nth-child(3) div {
   margin: 1.6rem 0 2rem 0;
@@ -169,14 +177,6 @@ p {
 section:nth-child(3) {
   max-width: 1000px;
   margin: 0 auto;
-}
-section:nth-child(3) .triangle {
-  text-align: center;
-  font-size: 2rem;
-  color: orange;
-}
-section:nth-child(3) .triangle h3 {
-  margin: 0;
 }
 section:nth-child(3) article {
   font-family: "Open Sans", sans-serif;

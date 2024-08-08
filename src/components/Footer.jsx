@@ -25,10 +25,6 @@ export default function Footer() {
           <h3>Contact</h3>
           <p>Email: info@skywork.pro</p>
         </div>
-        <div className="social">
-          <h3>Follow</h3>
-          <Link to=""><FontAwesomeIcon icon={faLinkedin}/></Link>
-        </div>
       </div>
       </div>
     <div className="copyright">

@@ -9,7 +9,7 @@ export default function ServiceMain() {
         </div>
         <div>
           <p>
-            While never compromising safety, Skywork Pro consistently achieves significant results with strong efficiency. This is facilitated by the utilization of advanced technology and comprehensive analytics. reducing potential expenses and safeguarding our most valuable asset ,our crew. This focus allows us to maintain significant operational output ensuring timely and reliable service for our clients.
+            At Skywork Pro, we enhance asset performance and longevity with insightful data. Our specialized services focus on proactive analytics and responsive insights, ensuring optimal conditions and uninterrupted operations. Using advanced tools and technology, we provide safe and precise critical infrastructure inspections for timely maintenance and early risk detection. Combining intelligent technology with our team's expertise, Skywork Pro delivers safe, innovative, and cost-effective solutions tailored to your needs.
           </p>
         </div>
       </header>
@@ -24,20 +24,19 @@ export default function ServiceMain() {
             <li>Mapping Orthomosaics</li>
             <li>3D Models</li>
             <li>Infrared/RGB/Thermal Imaging</li>
-            <li>Cinematography / Photography</li>
           </ul>
           <h3>Industries Served</h3>
           <ul>
             <li>Agriculture</li>
             <li>Construction</li>
             <li>Compliance</li>
-            <li>Entertainment</li>
             <li>Military</li>
             <li>Oil & Gas</li>
             <li>Public Safety</li>
             <li>Security</li>
             <li>Utilities (Electric, Energy, Gas, Solar, Telecom, Water)</li>
-            <li>Wildlife Disaster Relief</li>
+            <li>Wildlife</li>
+            <li>Disaster Relief</li>
           </ul>
           <div>
             <Link to="/contact">contact us</Link>
@@ -55,7 +54,7 @@ export default function ServiceMain() {
           </p>
           <p>Skywork Pro offers a multitude of services to keep your utility network compliant, manageable, and safe.</p>
           <ul>
-            <li>Transmission and Distribution Inspection Services</li>
+            <li>Transmission and Distribution Inspection</li>
             <li>PSPS Inspections</li>
             <li>Substation Inspections</li>
             <li>Wildfire Mitigation</li>
@@ -96,7 +95,7 @@ export default function ServiceMain() {
       <section>
         <div>
           <h3>Public Safety</h3>
-          <p>We take pride in keeping the communities that serve us safe by providing these services back to the community.</p>
+          <p>We take pride in maintaining the safety of communities that serve us by providing these services back to the community.</p>
           <ul>
             <li>Disaster Mitigation & Relief</li>
             <li>Emergency Services</li>
@@ -108,7 +107,7 @@ export default function ServiceMain() {
           </div>
         </div>
         <div>
-          <img src="/images/dji-drone.jpg" alt="aerial view of vegetation management" />
+          <img src="/images/public-safety-drone.jpg" alt="aerial view of vegetation management" />
         </div>
       </section>
 
