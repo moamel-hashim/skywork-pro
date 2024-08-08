@@ -53,6 +53,11 @@
 .hero-img-container .hero-text .button-container {
   margin-top: 3rem;
 }
+@media only screen and (max-width: 600px) {
+  .hero-img-container .hero-text .button-container {
+    margin-top: 2rem;
+  }
+}
 .hero-img-container .hero-text a {
   text-decoration: none;
   color: white;
