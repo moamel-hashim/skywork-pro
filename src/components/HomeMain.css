@@ -55,7 +55,7 @@
 }
 @media only screen and (max-width: 600px) {
   .hero-img-container .hero-text .button-container {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
 }
 .hero-img-container .hero-text a {
