@@ -9,7 +9,7 @@ export default function ServiceMain() {
         </div>
         <div>
           <p>
-            At Skywork Pro, we enhance asset performance and longevity with insightful data. Our specialized services focus on proactive analytics and responsive insights, ensuring optimal conditions and uninterrupted operations. Using advanced tools and technology, we provide safe and precise critical infrastructure inspections for timely maintenance and early risk detection. Combining intelligent technology with our team's expertise, Skywork Pro delivers safe, innovative, and cost-effective solutions tailored to your needs.
+            At Skywork Pro, we enhance asset performance and longevity through insightful data. Our specialized services focus on proactive analytics and responsive insights to ensure optimal conditions and uninterrupted operations. By employing advanced tools and technology, we conduct safe and precise critical infrastructure inspections for timely maintenance and early risk detection. Combining intelligent technology with our team’s expertise, Skywork Pro delivers innovative, cost-effective solutions tailored to your needs.
           </p>
         </div>
       </header>

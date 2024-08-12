@@ -11,10 +11,7 @@ export default function HomeMain() {
           <div className="hero-text">
             <h3>Skywork <span>Pro</span></h3>
             <p>
-              Skywork Pro is a leading provider of Unmanned Aerial Systems (UAS) services for critical infrastructure, electrical utility networks, and public safety. Our safety-driven, diverse,
-              and experienced team specializes in using Unmanned Aerial Vehicles (UAVs), commonly known as drones.
-              Our mission is to ensure the safety, security, and integrity of critical infrastructure and the public,
-              thereby enhancing the well-being of our communities.
+              Skywork Pro is a premier provider of Unmanned Aerial Systems (UAS) services for critical infrastructure, utility networks, and public safety. Our cross-functional and cross-cultural team includes engineers, technicians, and experienced pilots specializing in the use of Unmanned Aerial Vehicles (UAVs), also known as drones. Our mission is to ensure the safety, security, and integrity of critical infrastructure and the public, thereby enhancing the well-being of our communities.
             </p>
             <div className="button-container">
               <Link to='/contact'>Contact Us</Link>
